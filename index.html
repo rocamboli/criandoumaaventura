@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>A procura do vale encantado</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0"> 
+           <img src="cenario-passo0.avif" alt="">
+            <p>Em um dia qualquer eu estava andando na rua quando derrepente um senhorzinho me parou e entregou um papel, eu vi que na verdade era uma mapa para encontrar um vale encantado. Esse mapa tinha pistas que mostravam para onde ir e concerteza eu decidi seguir o mapa. </p>
+            <button class="btn-proximo" data-proximo="1">Roma</button>
+            <button class="btn-proximo" data-proximo="2">Veneza</button>           
+        </div>
+        <div class="passo" id="passo-1"> 
+            <p>Começamos a nossa jornada em Roma, entrando no Coliseu logo cedo em busca de encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no Coliseu</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e tornar para trás</button>           
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Começamos nossa jornada em Veneza, entrando no Palácio Ducal onde podemos encontrar uma das pistas do mapa</p>
+            <button class="btn-proximo" data-proximo="5">Procurar a pista no Palácio Ducal</button>
+            <button class="btn-proximo" data-proximo="6">procurar na Praça de São Marcos</button> 
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No Coliseu encontramos a primrira pista, que diz que a próxima pista está no Panteão.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para Panteão</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Decidimos que a aventura é muito longa então retornamos, e se pergutamos o que teriamos encontrado.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>No palácio Ducal vocẽ encontra um jarro e dentro tinha um papel dizendo que a próxima pista está no Panteão. </p>
+            <button class="btn-proximo" data-proximo="7">Ir para o Panteão</button>
+        </div>   
+        <div class="passo" id="passo-6">
+            <p>Na praça de São Marcos encontramos um tunel, que nos levou a uma parede sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Retornar ao Palácio Ducal</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>As buscas em Pnteão ficam intensa, equando encontramos um cofre que precisava de senha.</p>
+            <button class="btn-proximo" data-proximo="9">Tentar desvendar a senha</button>
+            <button class="btn-proximo" data-proximo="10">Deixar quieto e desistir de tudo</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>No Palácio Ducal encontramos um mapa, que  levará até Panteão</p>
+            <button class="btn-proximo" data-proximo="7">Ir até Panteão</button>
+        </div>
+        <div class="passo" id="passo-9">
+        <p>Desvendamos a senha do cofre e encontramos uma chave e junto uma carta com instruçoẽs que levava ao jardim, onde descobrimos a porta do Vale Encantado.</p>
+        <button class="btn-proximo" data-proximo="11"></button>
+        </div>
+       <div class="passo" id="passo-10"> 
+        <p>Decidimos desistir de tudo então quando estavamos saindo do palácio Ducal encontramos o senhor que nos entrgou o mapa.</p>
+        <button class="btn-proximo" data-proximo="12">Ir até o senhor e conversar com ele</button>
+       </div>
+       <div class="passo" id="passo-11">
+        <p>No Vale Encantado encontramos animais em extinção distintos, árvores de ouro e prata e muito mais, decidimos começar a explorar mais e mais o Vale e se dedicar a isto.</p>
+       </div>
+       <div class="passo" id="passo-12">
+        <p>Fomos falar com ele e nos entregou a chave e uma carta que levou-nos até o Vale Encantado</p>
+        <button class="btn-proximo" data-proximo="11">Explorar o Vle Encantado</button>
+       </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+

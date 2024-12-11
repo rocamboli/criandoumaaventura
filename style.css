@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(80, 77, 72);
+    color: rgb(207, 203, 197);
+    font-family: "baijamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 100;
+}
+
+button {
+    background-color: rgb(43, 42, 42);
+    color: rgb(235, 235, 235);
+    font-family: "baijamjuree", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
